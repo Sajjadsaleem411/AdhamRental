@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tvMapAirport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_blue_left_corner"
+            android:padding="5dp"
+            android:text="@string/airportPickup"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvMapCurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_background_blue_right"
+            android:padding="5dp"
+            android:text="@string/otherLocation"
+            android:textColor="@color/lineBlue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.2"
+        android:background="@color/bg"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rlAirport">
+            <TextView
+                android:id="@+id/txtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/selectAirport"
+                android:textSize="18dp"
+                android:textColor="@color/lineBlue"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rdGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtView"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rdb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+
+                    android:text="Java" />
+
+                <RadioButton
+                    android:id="@+id/rdb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Python" />
+
+                <RadioButton
+                    android:id="@+id/rdb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Android" />
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlOtherLocation"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/white_bg_gray_border_corner"
+            android:padding="15dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="30dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/etOtherLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@+id/ivSignInEmailCheck"
+                android:background="@android:color/transparent"
+                android:textSize="20sp"
+                android:gravity="start"
+                android:hint="@string/enterOtherLocation"
+                android:inputType="text" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlShareLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        android:background="@drawable/bg_blue"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/signInArrow"
+            android:gravity="center"
+            android:text="@string/shareLocation"
+            android:textAllCaps="true"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/signInArrow"
+            style="@style/arrowIcon"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow" />
+    </RelativeLayout>
+</LinearLayout>

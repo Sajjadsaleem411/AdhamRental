@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv_dialog_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/pleaseLoginToContinue"
+        android:textSize="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:layout_gravity="right"
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/lineBlue"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</LinearLayout>

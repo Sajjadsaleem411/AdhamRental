@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fullName"
+        android:textColor="@color/textColor" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/white_bg_gray_border_corner"
+        android:padding="10dp">
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/etSignUpName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/ivSignInNameCheck"
+            android:background="@android:color/transparent"
+            android:hint="@string/enterYourName" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivSignInNameCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_check" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@color/textColor" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/white_bg_gray_border_corner"
+        android:padding="10dp">
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/etSignUpEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/ivSignInEmailCheck"
+            android:background="@android:color/transparent"
+            android:hint="@string/enterYourEmailID" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivSignInEmailCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_check" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/password"
+        android:textColor="@color/textColor" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/white_bg_gray_border_corner"
+        android:padding="10dp">
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/etSignUpPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/ivSignInPasswordCheck"
+            android:background="@android:color/transparent"
+            android:hint="@string/enterPassword" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivSignInPasswordCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_check" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/phoneNo"
+        android:textColor="@color/textColor" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/white_bg_gray_border_corner"
+        android:padding="10dp">
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/etSignUpNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/ivSignInPhoneCheck"
+            android:background="@android:color/transparent"
+            android:hint="@string/enterPhoneNo" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivSignInPhoneCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_check" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlBtnSignUp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_blue"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/signInArrow"
+            android:gravity="center"
+            android:text="@string/signUp"
+            android:textAllCaps="true"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/signInArrow"
+            style="@style/arrowIcon"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow" />
+    </RelativeLayout>
+
+</LinearLayout>

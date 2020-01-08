@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.orders.OrdersActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/lineBlue">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/ivOrderLogout"
+                style="@style/searchIcon"
+                android:src="@drawable/ic_logout" />
+
+            <TextView
+                android:id="@+id/tvToolbarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/orders"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+            <android.support.v7.widget.SearchView
+                android:id="@+id/svToolbar"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_toEndOf="@+id/ivOrderLogout"
+                android:gravity="center"
+                android:clickable="true"
+                android:background="@drawable/bg_white_corner"
+                android:textAlignment="center"
+                app:queryHint="search"
+                android:visibility="gone"/>
+            <ImageView
+                android:layout_marginEnd="20dp"
+                android:id="@+id/ivToolbarSearch"
+                style="@style/searchIcon"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="end|center_vertical"
+                android:src="@drawable/ic_search_white" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayoutOrders"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:tabPadding="0dp"
+        app:tabGravity="fill"
+        app:tabSelectedTextColor="@color/lineBlue"
+        app:tabBackground="@color/white"
+        android:background="@color/white"
+        app:tabTextColor="@color/textColor"
+        app:tabTextAppearance="@style/CustomTabTextStyle"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/MyCustomTabTextAppearance"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pagerOrders"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

@@ -1,0 +1,108 @@
+<resources>
+    <string name="signIn">Se connecter</string>
+    <string name="signUp">S\'inscrire</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="joinUs">Rejoignez-nous</string>
+    <string name="skipThisStep">Passer cette étape</string>
+    <string name="email">Email</string>
+    <string name="enterYourEmailID">Entrez votre identifiant email/votre identifianEntrez votre identifiant email/votre identifiant</string>
+    <string name="password">Mot de passe</string>
+    <string name="enterPassword">Entrer le mot de passe</string>
+    <string name="forgetPassword">Mot de passe oublié?</string>
+    <string name="login">S\'identifier</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="pleaseLoginToContinue">Merci de vous connecter pour continuer</string>
+    <string name="to">à</string>
+    <string name="france">France</string>
+    <string name="fullName">Nom complet</string>
+    <string name="enterYourName">Entrez votre nom</string>
+    <string name="phoneNo">Téléphone .</string>
+    <string name="title_history">L\'historique</string>
+    <string name="title_more">Plus</string>
+    <string name="discover">Découvrir</string>
+    <string name="allCarDiscount">Toutes les voitures 50%</string>
+    <string name="discountDisc">Lorem ipsum dolor sit amet</string>
+    <string name="superCars">voitures de luxe</string>
+    <string name="economyCars">Voitures économiques</string>
+    <string name="viewAll">Voir tout</string>
+    <string name="selectType">Sélectionner le genre</string>
+    <string name="mercedes">Mercedes</string>
+    <string name="bmw">B M W</string>
+    <string name="maserati">Maserati</string>
+    <string name="cadillac">Cadillac</string>
+    <string name="all">Tout</string>
+    <string name="manual">Manuel</string>
+    <string name="seats">4 places</string>
+    <string name="language">La langue</string>
+    <string name="notifications">Les notifications</string>
+    <string name="aboutus">À propos de nous/qui sommes nous</string>
+    <string name="support">Soutien/aide</string>
+    <string name="logout">déconnecté vous/ déconnexion</string>
+    <string name="orderNo">Numéro de commande</string>
+    <string name="orderDate">Date de commande</string>
+    <string name="emailIID">Identifiant Email</string>
+    <string name="joinAs">Joindre en tant que</string>
+    <string name="licenseNo">N ° de licence.</string>
+    <string name="enterLicense">LIC 998877623</string>
+    <string name="title_activity_orders">OrdersActivity</string>
+    <string name="action_settings">Réglages</string>
+    <string name="join">Joindre</string>
+    <string name="orders">Ordres</string>
+    <string name="name">prénom</string>
+    <string name="cencelOrder">annuler la commande</string>
+    <string name="reject">Rejeter</string>
+    <string name="accept">Acceptez</string>
+    <string-array name="joinas_arrays">
+        <item>Garde du corps</item>
+        <item>Chauffeur</item>
+    </string-array>
+  <!--  <string-array name="choiceArray">
+        <item>Aucun</item>
+        <item>Anglais</item>
+        <item>arabe</item>
+        <item>français</item>
+    </string-array>
+    <string-array name="languageArray">
+        <item>Anglais</item>
+        <item>arabe</item>
+        <item>français</item>
+    </string-array>-->
+    <string name="bodyguard">Garde du corps</string>
+    <string name="driver">Chauffeur</string>
+    <string name="pending">En attendant</string>
+    <string name="approved">Approuvé</string>
+    <string name="rejected">Rejeté</string>
+    <string name="viewReceipt">Voir le reçu</string>
+    <string name="total">Total</string>
+    <string name="addNewCard">"Ajouter une nouvelle voiture/ "</string>
+    <string name="shareLocation">Partagé</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="airportPickup">Prise en charge à l\'aéroport</string>
+    <string name="currentLocation">Localisation actuelle</string>
+    <string name="otherLocation">Autre location</string>
+    <string name="time">Temps</string>
+    <string name="internetError">S\'il vous plaît vérifier votre internet!</string>
+    <string name="emailInvalid">L\'email n\'est pas correct!</string>
+    <string name="passwordInvalid">Le mot de passe doit être supérieur à 5 chiffres</string>
+    <string name="dataFieldsEmpty">Veuillez fournir les données d\'abord</string>
+    <string name="invalidData">Données invalides</string>
+    <string name="perDay">par jour</string>
+    <string name="selectBookingDate">Sélectionnez la date de réservation</string>
+    <string name="cancel">Annuler</string>
+    <string name="ok">D\'accord</string>
+    <string name="selectAirport">Sélectionnez un aéroport</string>
+    <string name="passwordOrEmailInvalid">Votre email ou mot de passe n\'est pas correct</string>
+    <string name="orderStatusChange">Succès changer le statut</string>
+    <string name="enterOtherLocation">Veuillez entrer un autre lieu</string>
+    <string name="orderPost">" Votre réservation a été reçue. Nous vous contacterons une fois votre réservation confirmée."</string>
+    <string name="comment">Commentaire</string>
+    <string name="tax">Impôt</string>
+    <string name="aboutusContent">"Bienvenue à ADHAM Co. Nous sommes une société de location de voitures de luxe qui dessert une clientèle VIP basée à Paris et qui possède une longue expérience de la location de voitures. Cela nous aide à fournir des services de location de voitures de modèles haut de gamme exclusifs de luxe et de sport sur demande, dans les villes touristiques les plus populaires de France. . ADHAM CARS CO. Est représentée par des centaines de modèles de voitures ou de véhicules utilitaires. Parmi ceux-ci, on compte plus d'une centaine de marques haut de gamme, telles que Aston Martin, BMW, Bentley, Ferrari, Lamborghini, Mercedes-Benz, McLaren, Rolls Royce. Notre personnel accorde toujours une attention particulière aux besoins des clients. Nous sommes toujours prêts à aider et à améliorer nos services afin de satisfaire les clients. "</string>
+    <string name="reservationDialog">Une réservation n’est possible qu’avant 24 heures</string>
+    <string name="contactUS">Contactez nous</string>
+    <string name="slide1">Bienvenue chez ADHAM Co</string>
+    <string name="slide2">Nous sommes une entreprise de location de voitures de luxe au service des clients</string>
+</resources>

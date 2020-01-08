@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="signIn">تسجيل دخول</string>
+    <string name="signUp">تسجيل</string>
+    <string name="joinUs">انضم الينا</string>
+    <string name="skipThisStep">تخطي</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="enterYourEmailID">ادخل البريد الالكترزني</string>
+    <string name="password">الرقم السري</string>
+    <string name="enterPassword">اخل الرقم السري</string>
+    <string name="forgetPassword">استعادة الباسورد</string>
+    <string name="login">دخول</string>
+    <string name="welcome">اهلا وسهلا</string>
+    <string name="pleaseLoginToContinue">الرجاء تسجيل الدخول للمتابعة</string>
+    <string name="to">الى</string>
+    <string name="france">فرنسا</string>
+    <string name="fullName">الاسم الكامل</string>
+    <string name="enterYourName">ادخل الاسم</string>
+    <string name="phoneNo">رقم التلفون</string>
+    <string name="title_history">التاريخ</string>
+    <string name="title_more">المزيد</string>
+    <string name="discover">استكشف</string>
+    <string name="allCarDiscount">جميع السيارات</string>
+    <string name="superCars">السيارات الفارهة</string>
+    <string name="economyCars">السيارات الاقتصادية</string>
+    <string name="viewAll">رعرض الكل</string>
+    <string name="selectType">اختار النوع</string>
+    <string name="mercedes">مرسيدس</string>
+    <string name="bmw">بي أم دبليو</string>
+    <string name="maserati">موزاراتي</string>
+    <string name="cadillac">كاديلاك</string>
+    <string name="all">الجميع</string>
+    <string name="manual">عادي</string>
+    <string name="seats">4 مقاعد</string>
+    <string name="language">اللغة</string>
+    <string name="notifications">اشعارات</string>
+    <string name="aboutus">من نحن</string>
+    <string name="support">الدعم</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="orderNo">رقم الطلب</string>
+    <string name="orderDate">تاريخ الطلب</string>
+    <string name="emailIID">البريد الالكترزني</string>
+    <string name="licenseNo">رقم الترخيص</string>
+    <string name="action_settings">اعدادات</string>
+    <string name="cencelOrder">الغاء الطلب</string>
+    <string name="reject">رفض</string>
+    <string name="accept">موافقة</string>
+    <string name="bodyguard">حارس شخصي</string>
+    <string name="driver">سائق</string>
+    <string name="pending">في الانتظار</string>
+    <string name="approved">تمت الموافقة</string>
+    <string name="rejected">تم الرفض</string>
+    <string name="viewReceipt">عرض االايصال</string>
+    <string name="total">المجموع</string>
+    <string name="addNewCard">اضافة سيارة جديدة</string>
+    <string name="shareLocation">مشاركة الموقع</string>
+    <string name="airportPickup">استلام من المطار</string>
+    <string name="currentLocation">الموقع الحالي</string>
+    <string name="otherLocation">الموقع آخر</string>
+    <string name="time">الوقت</string>
+    <string name="internetError">تأكد من الانترنت</string>
+    <string name="emailInvalid">البريد الالكتروني غير صحيح</string>
+    <string name="passwordInvalid">الرقم السري يجب ان يكون اكثر من 5 خانات</string>
+    <string name="dataFieldsEmpty">الرجاء تعبئة البيانات اولا</string>
+    <string name="invalidData">بيانات خاطئة</string>
+    <string name="perDay">باليوم</string>
+    <string name="selectBookingDate">اختار تاريخ الحجز</string>
+    <string name="cancel">الغاء الطلب</string>
+    <string name="ok">نعم</string>
+    <string-array name="joinas_arrays">
+        <item>حارس شخصي</item>
+        <item>سائق</item>
+    </string-array>
+ <!--   <string-array name="choiceArray">
+        <item>لا شيء</item>
+        <item>الانجليزية</item>
+        <item>العربية</item>
+        <item>الفرنسية</item>
+    </string-array>
+    <string-array name="languageArray">>
+        <item>الانجليزية</item>
+        <item>العربية</item>
+        <item>الفرنسية</item>
+    </string-array>-->
+    <string name="joinAs">انضم الينا</string>
+    <string name="join">انضم الينا</string>
+    <string name="name">الاسم</string>
+    <string name="orders">الطلب</string>
+    <string name="title_home">الصفحة الرئيسية</string>
+    <string name="selectAirport">اختار المطار</string>
+    <string name="passwordOrEmailInvalid">البريد الإلكتروني أو كلمة المرور الخاصة بك غير صحيحة</string>
+    <string name="orderStatusChange">تم تغيير الحالة بنجاح</string>
+    <string name="enterOtherLocation">الرجاء ادخال موقع اخر</string>
+    <string name="orderPost">تم استلام الحجز الخاص بك. سوف نتصل بك بمجرد تأكيد الحجز.</string>
+    <string name="aboutusContent">"مرحبا بكم في شركة أدهم نحن شركة تأجير سيارات فاخرة تخدم عملاء كبار الشخصيات مقرها في باريس ، مع خبرة طويلة في تأجير السيارات ، وهذا يساعدنا على توفير خدمات تأجير السيارات الفارهة والرياضية من نماذج متميزة حصرية عند الطلب ، في المدن السياحية الأكثر شعبية في فرنسا. تمثل شركة أدهم للسيارات مئات من نماذج السيارات أو الفانات الحديثة حيث نوفر اكثر من 100 موديل متميز، لعلامات تجارية مثل أستون مارتن ، بي أم دبليو ، بنتلي ، فيراري ، لامبورجيني ، مرسيدس بنز ، مكلارين ، رولز رويس. دائما ما يولي فريقنا اهتماما خاصا لاحتياجات العملاء , حيث أننا دائما على استعداد للمساعدة ونسعى جاهدين لتحسين خدماتنا لتلبية رغبات وتطلعات عملائنا. "</string>
+    <string name="comment">تعليق</string>
+    <string name="tax">الضريبة</string>
+    <string name="reservationDialog">لا يمكن الحجز إلا قبل 24 ساعة</string>
+    <string name="contactUS">اتصل بنا</string>
+    <string name="slide1">مرحبا بكم في شركة أدهم</string>
+    <string name="slide2">نحن شركة لتأجير السيارات الفاخرة التي تخدم العملاء</string>
+</resources>

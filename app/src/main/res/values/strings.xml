@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Adham Rental</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="joinUs">Join Us</string>
+    <string name="skipThisStep">Skip this step</string>
+    <string name="email">Email</string>
+    <string name="enterYourEmailID">Enter your email address</string>
+    <string name="enterOtherLocation">Please enter other location</string>
+    <string name="orderPost">Your booking has been received. We will contact you once you booking is confirmed.</string>
+    <string name="password">Password</string>
+    <string name="enterPassword">Enter password</string>
+    <string name="forgetPassword">Forget Password?</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="pleaseLoginToContinue">Please Login to continue</string>
+    <string name="to">to</string>
+    <string name="france">France</string>
+    <string name="fullName">Full name</string>
+    <string name="enterYourName">Enter your name</string>
+    <string name="phoneNo">Phone No.</string>
+    <string name="enterPhoneNo"></string>
+    <string name="title_history">History</string>
+    <string name="title_more">More</string>
+    <string name="discover">Discover</string>
+    <string name="allCarDiscount">All Cars 50%</string>
+    <string name="discountDisc">Lorem ipsum dolor sit amet</string>
+    <string name="superCars">Super Cars</string>
+    <string name="economyCars">Economy Cars</string>
+    <string name="viewAll">View All</string>
+    <string name="selectType">Select Type</string>
+    <string name="mercedes">Mercedes</string>
+    <string name="bmw">B M W</string>
+    <string name="maserati">Maserati</string>
+    <string name="cadillac">Cadillac</string>
+    <string name="all">All</string>
+    <string name="manual">Manual</string>
+    <string name="seats">4 Seats</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="aboutus">About Us</string>
+    <string name="support">Support</string>
+    <string name="logout">Logout</string>
+    <string name="french">French</string>
+    <string name="orderNo">Order No.</string>
+    <string name="orderDate">Order Date</string>
+    <string name="emailIID">Email ID</string>
+    <string name="joinAs">Join As</string>
+    <string name="licenseNo">License No.</string>
+    <string name="enterLicense">LIC 998877623</string>
+    <string name="title_activity_orders">OrdersActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="join">Join Us</string>
+    <string name="orders">Orders</string>
+    <string name="name">Name</string>
+    <string name="cencelOrder">Cancel Order</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string-array name="joinas_arrays">
+        <item>Bodyguard</item>
+        <item>Driver</item>
+    </string-array>
+    <string-array name="choiceArray">
+        <item>Choice Language</item>
+        <item>English</item>
+        <item>Arabic</item>
+        <item>French</item>
+    </string-array>
+
+    <string-array name="languageArray">
+        <item>English</item>
+        <item>Arabic</item>
+        <item>French</item>
+    </string-array>
+
+    <string name="bodyguard">Bodyguard</string>
+    <string name="driver">Driver</string>
+    <string name="pending">Pending</string>
+    <string name="approved">Approved</string>
+    <string name="rejected">Rejected</string>
+    <string name="viewReceipt">View Receipt</string>
+    <string name="total">Total</string>
+    <string name="addNewCard">+Add New Card</string>
+    <string name="shareLocation">Share Location</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="airportPickup">Airport Pickup</string>
+    <string name="currentLocation">Current Location</string>
+    <string name="otherLocation">Other Location</string>
+    <string name="time">Time</string>
+    <string name="internetError">Please check your internet!</string>
+    <string name="emailInvalid">Email is not correct!</string>
+    <string name="passwordInvalid">Password must be greater to 5 digit</string>
+    <string name="passwordOrEmailInvalid">Your email or password is not correct</string>
+    <string name="dataFieldsEmpty">Kindly provide the data first</string>
+    <string name="invalidData">Invalid Data</string>
+    <string name="perDay">per day</string>
+    <string name="selectBookingDate">Select Booking Date</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="selectAirport">Select Airport</string>
+    <string name="tax">Tax</string>
+    <string name="orderStatusChange">Successfull change the status</string>
+    <string name="comment">Comment</string>
+    <string name="sendFeedback">Send feeback</string>
+    <string name="set">Set</string>
+    <string name="set_date">Set Date</string>
+    <string name="set_time">Set Time</string>
+    <string name="aboutusContent"><![CDATA[Welcome to ADHAM Co. We are a Luxury cars rental Company serving VIP customers based in Paris, with long car rental experience , That helping us provides cars rental services of exclusive premium luxury & Sports models on request, in the most popular tourist cities in France. ADHAM CARS CO. is represented by hundreds models of Cars or Van`s . There are more than 100 of premium ones among them, such brands as Aston Martin, BMW, Bentley, Ferrari, Lamborghini, Mercedes-Benz, McLaren, Rolls Royce.  Our staff always pays special attention to customers\' needs. We always ready to help and strive to improve our services to meet with our clients satisfactions.]]></string>
+    <string name="reservationDialog">Reservation can only be done before 24 hours.</string>
+    <string name="daysRent">days rent</string>
+    <string name="contactUS">Contact Us</string>
+
+    <string name="slide1">Welcome to ADHAM Co</string>
+    <string name="slide2">We are a Luxury cars rental Company serving VIP customers</string>
+</resources>

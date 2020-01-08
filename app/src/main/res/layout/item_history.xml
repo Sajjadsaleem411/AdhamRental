@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginBottom="15dp"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/titleOrderNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/orderNo"
+        android:textAllCaps="true"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/tvHistoryOrderNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/titleOrderNo"
+        android:text="afe-889282"
+        android:textAllCaps="true"
+        android:textColor="@color/lightTextColor" />
+
+    <TextView
+        android:id="@+id/titleOrderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/orderDate"
+        android:textAllCaps="true"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/tvHistoryOrderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/titleOrderDate"
+        android:text="29 nov 2018"
+        android:textAllCaps="true"
+        android:textColor="@color/lightTextColor" />
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvHistoryOrderDate"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/lineColor" />
+
+    <LinearLayout
+        android:layout_below="@id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/ivHistoryCarImage"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.6"
+            android:src="@drawable/car"
+            android:tag="image_tag" />
+
+        <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvHistoryTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$800 Total"
+                android:textColor="@color/darkRed" />
+            <TextView
+                android:id="@+id/tvHistoryCarName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Renault Kleos White"
+                android:textColor="@color/textColor" />
+            <TextView
+                android:id="@+id/tvHistoryBodyguardorDriver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/titleOrderNo"
+                android:text="bodyguard-driver"
+                android:textAllCaps="true"
+                android:textColor="@color/lightTextColor" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

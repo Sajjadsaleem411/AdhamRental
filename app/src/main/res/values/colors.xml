@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5074E8</color>
+    <color name="colorPrimaryDark">#2E2E2E</color>
+    <color name="colorAccent">#5074E8</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#FF000000</color>
+
+    <color name="splashBackground">#2E2E2E</color>
+    <color name="textColor">#434343</color>
+    <color name="lightTextColor">#60434343</color>
+    <color name="lineBlue">#5074E8</color>
+    <color name="bg">#f4f4f4</color>
+    <color name="darkBlue">#002396</color>
+    <color name="darkRed">#ee2939</color>
+    <color name="backgroundButton">#F0F3FD</color>
+    <color name="lineColor">#E3E3E3</color>
+    <color name="light_red">#FF7272</color>
+
+    <color name="gray_trans">#30f4f4f4</color>
+</resources>

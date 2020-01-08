@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Your Receipt"
+            android:textColor="@color/textColor"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/bg"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/viewLine"
+                android:background="@drawable/bg_white"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:src="@drawable/car"
+                    android:tag="image_tag" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 seats - 5 doors"
+                        android:textAllCaps="true"
+                        android:textColor="@color/textColor" />
+
+                    <TextView
+                        android:id="@+id/tvReceiptCarName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Renault Kleos White"
+                        android:textColor="@color/textColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvReceiptDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/titleOrderNo"
+                        android:text="20 Nov 2:00 PM_24 Nov 2:00 PM"
+                        android:textColor="@color/lineBlue"
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvReceiptDays"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start"
+                    android:text="4 days rent"
+                    android:textColor="@color/lightTextColor" />
+
+                <TextView
+                    android:id="@+id/tvReceiptSubTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="$400.00"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="underline"
+                android:layerType="software"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:src="@drawable/dot_line" />
+
+            <RelativeLayout
+                android:id="@+id/rlReceiptBodyguard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start"
+                    android:text="@string/bodyguard"
+                    android:textColor="@color/lightTextColor" />
+
+                <TextView
+                    android:id="@+id/tvBodyguardPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="$50/Day"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/tvBodyguardPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="underline"
+                    android:layerType="software"
+                    android:src="@drawable/dot_line" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlReceiptDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start"
+                    android:text="@string/driver"
+                    android:textColor="@color/lightTextColor" />
+
+                <TextView
+                    android:id="@+id/tvDriverPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="$50/Day"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/tvDriverPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="underline"
+                    android:layerType="software"
+                    android:src="@drawable/dot_line" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rlReceiptTax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start"
+                    android:text="@string/tax"
+                    android:textColor="@color/lightTextColor" />
+
+                <TextView
+                    android:id="@+id/tvTax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="20%"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/tvTax"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="underline"
+                    android:layerType="software"
+                    android:src="@drawable/dot_line" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start"
+                    android:text="@string/total"
+                    android:textColor="@color/lineBlue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvReceiptTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="$600.00"
+                    android:textColor="@color/lineBlue"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_background_gray"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/ivVisa"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_visa" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/ivVisa"
+                android:text="**** 5027" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="@string/addNewCard"
+                android:textColor="@color/lineBlue" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlShareLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blue"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/signInArrow"
+                android:gravity="center"
+                android:text="@string/shareLocation"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/signInArrow"
+                style="@style/arrowIcon"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

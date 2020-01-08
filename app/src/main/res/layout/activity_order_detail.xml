@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/white"
+    android:layout_marginBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewLine"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/ivBookingCarImage"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.6"
+            android:src="@drawable/car"
+            android:tag="image_tag" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvOrderCarName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Renault Kleos White"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:id="@+id/tvOrderDates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/titleOrderNo"
+                android:text="20 Nov 2:00 PM_24 Nov 2:00 PM"
+                android:textColor="@color/lineBlue" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        android:padding="15dp"
+        android:layout_margin="15dp">
+        <TextView
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/orderNo"/>
+        <TextView
+            android:id="@+id/tvOrderOrderNo"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="BMW 588200"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderOrderNo"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/name"/>
+        <TextView
+
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderOrderNo"
+            android:id="@+id/tvOrderUserName"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="Sajjad Saleem"/>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderUserName"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/phoneNo"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderUserName"
+            android:id="@+id/tvOrderPhoneNo"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="+966 58 2233992"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderPhoneNo"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/shareLocation"/>
+        <TextView
+
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderPhoneNo"
+            android:id="@+id/tvOrderAirportorAddress"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="Sajjad Saleem"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderAirportorAddress"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/bodyguard"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderAirportorAddress"
+            android:id="@+id/tvOrderBodyguard"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text=""/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderBodyguard"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/driver"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderBodyguard"
+            android:id="@+id/tvOrderDriver"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text=""/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderDriver"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text="@string/total"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvOrderDriver"
+            android:id="@+id/tvOrdertotal"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:text=""/>
+
+    </RelativeLayout>
+
+</LinearLayout>
